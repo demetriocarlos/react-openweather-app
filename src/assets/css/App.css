@@ -1,0 +1,78 @@
+ 
+/* recurso importante
+   https://loading.io/css
+*/
+
+ body{
+    background-color: #2f3544 ;
+ }
+
+.App{
+   text-align: center;
+}
+
+.input-group{
+   width: 60%;
+}
+
+.card{
+   max-width: 60%;
+}
+
+
+.card-title{
+   position:  absolute;
+   padding: 20px;
+}
+
+.card-date{
+   position:  absolute;
+   padding-left: 20px;
+   margin-top: 60px;
+}
+.card-temp{
+   position:  absolute;
+   padding-left: 20px;
+   margin-top: 260px;
+   font-size: 50px;
+}
+
+.card-desc{
+   
+   padding-left: 20px;
+   margin-top: 320px;
+}
+
+/*  <img src="https://images.pexels.com/photos/14071000/pexels-photo-14071000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="..."/>*/
+
+.back-img{
+   /*background-image: url('https://images.pexels.com/photos/14071000/pexels-photo-14071000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');*/
+   background-image: url("https://th.bing.com/th/id/R.f44c8bbb4c0eb1add305040309334488?rik=WiqIZrMovb63YA&riu=http%3a%2f%2f4.bp.blogspot.com%2f_jVnupnQWcF8%2fS-hK6U3sd6I%2fAAAAAAAAAWI%2fgdzc7E8Cee8%2fs1600%2ftorrechuru5.jpg&ehk=f4JwOJ9%2fmYNXYbQjHyl%2bPk34huLJTWmQV9OC%2fBXNIMI%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+     
+    background-position: center center;
+    /*background-attachment: fixed;
+    /*min-height: 100vh;*/
+    background-size: cover;
+}
+
+.text-light{
+   text-align: center;
+}
+
+
+ 
+.container2 {
+   /*display: flex;*/
+    align-items: center;
+    width: 100%;
+ }
+ 
+
+.lds-ripple{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 47%;
+}
